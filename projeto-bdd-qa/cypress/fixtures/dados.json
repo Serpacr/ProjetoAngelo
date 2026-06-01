@@ -1,0 +1,10 @@
+{
+  "portal": {
+    "baseUrl": "https://portaldatransparencia.gov.br",
+    "tituloPagina": "Portal da Transparência"
+  },
+  "busca": {
+    "nomeFavorecido": "PETROBRAS",
+    "cnpjExemplo": "33000167000101"
+  }
+}
