@@ -1,0 +1,17 @@
+{
+  "name": "projeto-bdd-qa-transparencia",
+  "version": "1.0.0",
+  "description": "Projeto de automação BDD com Cypress + Cucumber no Portal da Transparência",
+  "scripts": {
+    "cy:open": "npx cypress open",
+    "cy:run": "npx cypress run"
+  },
+  "devDependencies": {
+    "cypress": "^15.16.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/steps"
+  }
+}
