@@ -4,7 +4,7 @@ Automação de testes com **Cypress + Cucumber + Gherkin** no Portal da Transpar
 
 ---
 
-## 📁 Estrutura do Projeto
+## Estrutura do Projeto
 
 ```
 projeto-bdd-qa/
@@ -32,7 +32,7 @@ projeto-bdd-qa/
 
 ---
 
-## ⚙️ Pré-requisitos (o que instalar)
+##  Pré-requisitos (o que instalar)
 
 - [Node.js LTS](https://nodejs.org/) — versão 18 ou superior
 - [Git](https://git-scm.com/)
@@ -40,7 +40,7 @@ projeto-bdd-qa/
 
 ---
 
-## 🚀 Como rodar o projeto
+##  Como rodar o projeto
 
 ### 1. Instalar as dependências
 ```bash
@@ -59,25 +59,21 @@ npm run cy:run
 
 ---
 
-## 🧪 Cenários de Teste
+##  Cenários de Teste
 
 ### favorecidos.feature
 - ✅ Verificar o título da página inicial
 - ✅ Navegar para a seção de favorecidos
 - ✅ Buscar um favorecido pelo nome
 
-### gastos.feature
-- ✅ Acessar a página de gastos diretos
-- ✅ Verificar campo de pesquisa
-- ✅ Verificar links do menu principal (Receitas e Despesas)
 
 ---
 
-## 👥 Git — Como cada integrante deve contribuir
+##  Git — Como cada integrante deve contribuir
 
 ```bash
 # 1. Clone o repositório
-git clone https://github.com/SEU-USUARIO/projeto-bdd-qa.git
+git clone https://github.com/Serpacr/ProjetoAngelo
 
 # 2. Entre na pasta
 cd projeto-bdd-qa
