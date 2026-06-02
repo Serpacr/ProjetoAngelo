@@ -3,13 +3,11 @@
 
 class HomePage {
   acessarPortal() {
-    // Usar failOnStatusCode: false para ignorar erros de requisições
     cy.visit("/", { 
       failOnStatusCode: false,
       timeout: 120000
     });
     
-    // Aguardar o body carregar
     cy.get('body', { timeout: 30000 }).should('exist');
   }
 

@@ -12,16 +12,16 @@ projeto-bdd-qa/
 │   ├── e2e/
 │   │   ├── features/
 │   │   │   ├── favorecidos.feature   → Cenários de busca de favorecidos
-│   │   │   └── gastos.feature        → Cenários de consulta de gastos
+│   │   │   
 │   │   └── steps/
 │   │       ├── favorecidosSteps.js   → Implementação dos passos de favorecidos
-│   │       └── gastosSteps.js        → Implementação dos passos de gastos
+│   │       
 │   ├── fixtures/
 │   │   └── dados.json                → Dados de apoio aos testes
 │   ├── pages/
 │   │   ├── HomePage.js               → Page Object da página inicial
 │   │   ├── FavorecidosPage.js        → Page Object da página de favorecidos
-│   │   └── GastosPage.js             → Page Object da página de gastos
+│   │   
 │   └── support/
 │       ├── commands.js               → Comandos customizados
 │       └── e2e.js                    → Configurações globais
@@ -62,9 +62,9 @@ npm run cy:run
 ##  Cenários de Teste
 
 ### favorecidos.feature
-- ✅ Verificar o título da página inicial
-- ✅ Navegar para a seção de favorecidos
-- ✅ Buscar um favorecido pelo nome
+-  Verificar o título da página inicial
+-  Navegar para a seção de favorecidos
+-  Buscar um favorecido pelo nome
 
 
 ---
